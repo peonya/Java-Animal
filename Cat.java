@@ -2,8 +2,8 @@ package Animal;
 
 public class Cat extends Animal implements Actions {
 
-    public Cat(String name) {
-        super(name);
+   public Cat(String name, Integer age) {
+        super(name, age);
 
     }
 

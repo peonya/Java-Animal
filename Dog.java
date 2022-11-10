@@ -2,8 +2,8 @@ package Animal;
 
 public class Dog extends Animal implements Actions {
 
-    public Dog(String name) {
-        super(name);
+    public Dog(String name, Integer age) {
+        super(name, age);
 
     }
 
